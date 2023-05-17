@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Page Title</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="title">
+    <h1>Simple Calc</h1>
+  </div>
+
+  <div class="list">
+    <h1>current values $</h1>
+    <h1>USD - 3.65</h1>
+    <h1>EUR - 3.88</h1>
+    <h1>GBP - 4.42</h1>
+  </div>
+
+  <div class="div-input">
+  <input id="amount" type="text" placeholder="amount">
+  <br>
+  </div>
+
+  <div class="div-currency">
+    <select id="currency">
+      <option value="3.65">USD</option>
+      <option value="3.88">EUR</option>
+      <option value="4.42">GBP</option>
+    </select>
+  </div>
+
+  <div class="div-convert">
+  <button class="convert-btn" onclick="calcultor()">Convert</button>
+  <script src='main.js'></script>
+  </div>
+
+</body>
+</html>
